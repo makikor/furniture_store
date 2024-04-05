@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1, p {
+    margin:0%
+}
+
+a{
+    text-decoration: none;
+    color: rgb(128, 128, 128);
+}
+
+span {
+    font-size: 24px;
+    font-weight:bold;
+    color:#e9e7e6;
+    margin: 20px 0px;
+}
+
+button {
+    padding: 13px 60px;
+    background-color: rgb(118, 84, 71);
+    border: 0;
+    color: #f1f0f0;
+    font-size: 19px;
+}
+
+#wrapper{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff);
+}
+
+.info{
+    display: flex;
+    margin:0 auto;
+    width: 65%;
+}
+
+.info__item {
+    width:33%;
+    text-align: center;
+    overflow: hidden;
+    font-size: 19px;
+}
+
+.nav__list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    background-color:#212121;
+    padding: 5px 0px;
+    margin: 0%;
+}
+
+.nav__list > li{
+    width: 10%;
+    text-decoration: none;
+}
+
+header{
+    position: relative;
+    background: 
+    linear-gradient(rgba(37, 36, 36, 0.7), rgba(0, 0, 0, 0.8)), 
+    url(../furniture_store/img/1920x0/e1ee8253493a228710d1d3caaf1c4e02.jpg);
+    background-size: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    color: #ffffff;
+    font-size: 19px;
+}
+
+.header__inside{
+    position: absolute;
+    margin: 120px 450px;
+    box-sizing: border-box;
+    width: 600px;
+}
+
+.furniture {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+.section {
+    margin: 70px auto;
+    width: 65%;
+    text-align: center;
+}
+
+.section__title{
+    text-align: center;
+}
+
+.furniture__images200x200{
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+}
+
+.furniture__name{
+    font-size: 19px;
+    font-weight: bold;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.furniture__description{
+    box-sizing: border-box;
+    padding: 0 20px;
+    margin: 15px 0;
+}
+
+.furniture__price{
+    font-size: 22px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.furniture__button {
+    text-align: center;
+}
+
+.advantages{
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.advantages__item{
+    display: flex;
+    position: relative;
+    width: 33.33%;
+    background: #000;
+}
+
+.item__img > img{
+    display: flex;
+    width: 100%;
+    opacity: 0.45;
+}
+
+.item__content{
+    position: absolute;
+    vertical-align: middle;
+    margin: 20px 10px;
+    padding: 20px 20px;
+    color: #f1f0f0;
+
+}
+
+.item__content p{
+    margin-top: 30px ;
+    text-align: center;
+    color: rgb(197, 195, 195);
+}
